@@ -15,11 +15,11 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 
 1. Para clonar a aplição:
 
-    ```git clone + link do repositorio```
+    ```git clone https://github.com/brendatondin/randomTips```
 
 2. Após clonar:
 
-     ```cd + nome da pasta(randomTips)```
+     ```cd randomTips```
 
 3. Para instalar as dependências:
 
@@ -31,18 +31,15 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 
 ## Rotas
 
-Após clonar o repositório dê o seguinte comando:
+url/tip ou url/create
 
-```cd + randomTips```
+## Get
+<!-- get[mostrar como é exemplo de resposta] -->
+Ex:
+<!-- pegar resposta do insonmina e usar como exemplo -->
 
-## Instalação das Dependências
+## Post
+<!-- post[mostrar resposta e como enviar] -->
+Ex:
+<!-- pegar exemplo blabla -->
 
-Para instalar as dependências rode o seguinte comando:
-
-```npm i``` 
-
-## Inicialização da Aplicação
-
-Para iniciar sua aplicação rode o seguinte comando:
-
-```npm start```
