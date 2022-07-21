@@ -31,12 +31,21 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 
 ## Rotas
 
-url/tip ou url/create
+```url/tip ou url/create```
 
 ## Get
-<!-- get[mostrar como é exemplo de resposta] -->
-Ex:
-<!-- pegar resposta do insonmina e usar como exemplo -->
+
+```Json
+{
+    "tips": ["turn right", "turn left", "go straight", "turn back"]
+}
+```
+
+```Json
+{
+	"tips": "turn right"
+}
+```
 
 ## Post
 <!-- post[mostrar resposta e como enviar] -->
