@@ -13,19 +13,19 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 
 ## Como instalar a aplicação localmente:
 
-1. Para clonar a aplição:
+1. Para clonar repositório:
 
     ```git clone https://github.com/brendatondin/randomTips```
 
-2. Após clonar:
+2. Entrando na pasta:
 
      ```cd randomTips```
 
-3. Para instalar as dependências:
+3. Para instalar as bibliotecas:
 
     ```npm i```
 
-4. Para iniciar sua aplicação:
+4. Para iniciar o projeto:
 
     ```npm start```
 
@@ -33,7 +33,7 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 
 ```url/tip ou url/create```
 
-## Get
+## Get /tips
 
 ```Json
 {
@@ -41,14 +41,27 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 }
 ```
 
+### Exemplo da resposta
+
 ```Json
 {
 	"tips": "turn right"
 }
 ```
 
-## Post
+## Post /create
 <!-- post[mostrar resposta e como enviar] -->
-Ex:
-<!-- pegar exemplo blabla -->
+```Json
+{
+	"tip" : "trip canceled"
+}
+```
 
+### Exemplo da resposta
+<!-- pegar exemplo blabla -->
+```Json
+{
+	"msg": "Dica inserida com sucesso!",
+	"error": false
+}
+```
