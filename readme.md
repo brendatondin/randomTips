@@ -50,7 +50,7 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 ```
 
 ## Post /create
-<!-- post[mostrar resposta e como enviar] -->
+
 ```Json
 {
 	"tip" : "trip canceled"
@@ -58,7 +58,7 @@ Adiciona e mostra dicas aleatórias para os usuários. Denvolvido em Node.js
 ```
 
 ### Exemplo da resposta
-<!-- pegar exemplo blabla -->
+
 ```Json
 {
 	"msg": "Dica inserida com sucesso!",
